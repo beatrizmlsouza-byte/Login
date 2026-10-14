@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: #eeeeee;
+}
+
+.caixa {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px #cccccc;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+}
+
+.mensagem {
+    margin-top: 8px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.fraca {
+    color: #ffffff;
+    background: #e53935;
+}
+
+.intermediaria {
+    color: #222222;
+    background: #ffeb3b;
+}
+
+.forte {
+    color: #ffffff;
+    background: #2e9d50;
+}
+
+button {
+    width: 100%;
+    margin-top: 18px;
+    padding: 11px;
+    color: white;
+    background: #333333;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555555;
+}
+
+#resultado {
+    margin-top: 18px;
+    overflow-wrap: anywhere;
+}

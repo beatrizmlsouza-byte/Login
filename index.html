@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <section class="caixa">
+        <h1>Cadastro / Login</h1>
+        <form id="formLogin">
+            <label for="txUsuario">Usuário</label>
+            <input type="text" id="txUsuario" placeholder="Digite seu usuário">
+
+            <label for="txSenha">Senha</label>
+            <input type="password" id="txSenha" placeholder="Digite sua senha">
+            <div id="mensagemSenha" class="mensagem">Digite uma senha.</div>
+
+            <label for="txConfirmar">Confirmar senha</label>
+            <input type="password" id="txConfirmar" placeholder="Confirme sua senha">
+
+            <div id="mensagemErro" class="mensagem"></div>
+            <button type="submit">Entrar</button>
+        </form>
+        <div id="resultado"></div>
+    </section>
+</body>
+</html>
